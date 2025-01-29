@@ -7,17 +7,22 @@
 
 ## Setup Instructions
 
-1. Install dependencies:
+1. Move to folder:
+```bash
+cd map-test
+```
+
+3. Install dependencies:
 ```bash
 npm install
 ```
 
-2. Create `.env` file:
+3. Create `.env` file:
 ```env
 VITE_MAPBOX_TOKEN=your_mapbox_token_here
 ```
 
-3. Start the development server:
+4. Start the development server:
 ```bash
 npm run dev
 ```
